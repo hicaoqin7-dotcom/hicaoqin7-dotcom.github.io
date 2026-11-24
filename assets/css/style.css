@@ -511,3 +511,9 @@ to{opacity:1;transform:none}
 #ai-services .ai-service-screen figcaption{padding:8px 0 0;border:0;background:transparent}
 /* 工作经历：选中的两条项目说明（产业园 / 食安）放宽行间距，行高增大 6px */
 [data-exp-panel="work"] > .timeline-item:first-of-type > ul > li:nth-child(n+2){line-height:calc(1.65em + 6px);padding-top:6px;padding-bottom:6px}
+
+/* 云晤精灵 AI 案例：banner 下方新增的两张横版视觉图，全宽、上下排列 */
+.ai-case-extra{margin:22px 0 34px;display:flex;flex-direction:column;gap:16px}
+.ai-case-extra figure{margin:0;padding:0;overflow:hidden;border-radius:14px;background:#f4f8fd}
+.ai-case-extra img{display:block;width:100%;height:auto}
+@media(max-width:700px){.ai-case-extra{margin:16px 0 24px;gap:12px}}
