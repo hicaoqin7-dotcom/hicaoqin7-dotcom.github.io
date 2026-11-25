@@ -522,3 +522,7 @@ to{opacity:1;transform:none}
 /* 云晤精灵产品图说明文字 */
 .ai-case-extra-label{margin:10px 0 0;font-size:15px;font-weight:600;color:var(--ink);line-height:1.6}
 @media(max-width:700px){.ai-case-extra-label{font-size:14px}}
+
+/* 云晤体检：11-25 用户重新导出的两张完整原图，上下紧贴展示（不裁切、不拼接） */
+#ai-services .ai-service-screen-pair{display:flex;flex-direction:column;gap:0}
+#ai-services .ai-service-screen-pair img{display:block;width:100%;height:auto;max-height:none;margin:0;padding:0;border:0;border-radius:0;background:transparent;flex:0 0 auto}
