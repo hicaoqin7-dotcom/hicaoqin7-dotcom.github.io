@@ -525,3 +525,5 @@ to{opacity:1;transform:none}
 
 /* 云晤体检：两张完整原图分别占据两个图位，各自带图注、保留正常间距 */
 #ai-services .ai-service-panel[data-ai-service-panel="check"] .ai-service-screen img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+/* 11-25 用户要求：删掉与图片内标题重复的「云晤体检」标题+描述，仅保留右侧流程标签 */
+#ai-services .ai-service-panel[data-ai-service-panel="check"] .ai-service-summary{justify-content:flex-end;margin-bottom:10px}
