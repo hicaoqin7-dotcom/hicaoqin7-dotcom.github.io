@@ -354,7 +354,7 @@ to{opacity:1;transform:none}
 .ai-banner-visual img{min-height:0}
 .case-layout{grid-template-columns:1fr}
 }
-.ai-service-panel[data-ai-service-panel="check"] .ai-service-screens{grid-template-columns:1fr;max-width:none;margin:0;gap:18px}
+.ai-service-panel[data-ai-service-panel="check"] .ai-service-screens{grid-template-columns:1fr;max-width:none;margin:0;gap:0}
 .ai-service-panel[data-ai-service-panel="check"] .ai-service-screen img{height:auto;max-height:none;object-fit:contain}
 .ai-method-example{margin:0 6% 30px;padding:20px;border:1px solid #dceafb;border-radius:18px;background:linear-gradient(135deg,#fbfdff,#f1f8ff)}
 .ai-method-example figure{margin:14px 0 0;overflow:hidden;border-radius:12px;background:#fff;border:1px solid #e2edf9;box-shadow:0 8px 22px rgba(27,83,143,.08)}
