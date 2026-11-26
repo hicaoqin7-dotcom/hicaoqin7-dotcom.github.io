@@ -527,3 +527,12 @@ to{opacity:1;transform:none}
 #ai-services .ai-service-panel[data-ai-service-panel="check"] .ai-service-screen img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
 /* 11-25 用户要求：删掉与图片内标题重复的「云晤体检」标题+描述，仅保留右侧流程标签 */
 #ai-services .ai-service-panel[data-ai-service-panel="check"] .ai-service-summary{justify-content:flex-end;margin-bottom:10px}
+
+/* 11-26 用户要求：AI 案例页长图去掉容器背景与图片间空白，连成无间断长图 */
+#ai-case .case-layout{row-gap:0}
+#ai-case #ai-services{padding-bottom:0;margin-bottom:0;border-bottom:0}
+#ai-case .ai-service-showcase{margin-top:0;padding:0;border:0;border-radius:0;background:transparent}
+#ai-case .ai-health-intent-map,
+#ai-case .ai-service-delivery{margin:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+#ai-case .ai-health-intent-map img,
+#ai-case .ai-service-delivery img{margin:0;border-radius:0}
